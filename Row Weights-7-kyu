@@ -11,9 +11,6 @@
 //Array size is at least 1.
 //All numbers will be positive.
 
-///Input >> Output Examples
-//rowWeights([13, 27, 49])  ==>  return (62, 27)
-
 
 
 function rowWeights(array){
@@ -28,3 +25,5 @@ function rowWeights(array){
     }
     return [odd, even]
 }
+
+
